@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    app:cardCornerRadius="10dp"
+    android:id="@+id/singleRow"
+    android:elevation="10dp"
+    android:background="#C9E6EA"
+    android:backgroundTint="#EFF4F4"
+    android:outlineAmbientShadowColor="#009688"
+    android:layout_marginBottom="10dp"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/name"
+                android:layout_marginTop="10dp"
+                android:text="Tapan Mahata"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:textColor="@color/purple_500"
+                android:layout_marginLeft="20dp"
+                ></TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+
+                <TextView
+                    android:id="@+id/subject"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="Chemestry"
+                    android:textSize="16dp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:text="*"
+                    android:textSize="30dp"></TextView>
+
+                <TextView
+                    android:id="@+id/iitname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+
+                    android:text="IIT kolkataebdvrgrbebe"
+
+                    android:textSize="16dp"></TextView>
+
+
+            </LinearLayout>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:cardCornerRadius="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="5dp"
+                >
+                <Button
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn"
+
+                    android:text="View More"
+                    android:background="@color/design_default_color_primary_dark"
+                    ></Button>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            >
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="15dp"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/img"
+
+                    ></ImageView>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
